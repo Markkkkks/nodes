@@ -4,7 +4,6 @@
 
 `request.getSession` 效果为如果无session创建该session 并且对客户端发送cookie，cookie中记录了session的`jsessionid`，该id用于发送给服务器获取到对应的session
 
-
 该session创建时经历了以下步骤：
 
 ```shell
